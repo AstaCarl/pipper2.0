@@ -8,7 +8,7 @@ import Knap from "./Knap"
 
 export default function Sidebar(props) {
     return (
-        <body>  
+        <section>  
             <nav class="nav flex-column sidebar">
                 <figure>
                 <img className='logo' src={myLogo} alt="Logo" />
@@ -24,6 +24,6 @@ export default function Sidebar(props) {
                 </a>
                 < Knap/>
             </nav>  
-        </body>
+        </section>
     )
 }
