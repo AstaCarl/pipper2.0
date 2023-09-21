@@ -1,12 +1,18 @@
-h1{
-    padding-bottom: 30px;
-}
-
-avatar{
+body{
     display: flex;
+    background-color: red;
+    width: 70%;
     justify-content: center;
+
 }
 
-.horziontal-line{
-    width: 100%;
+.avatar{
+    display: flex;
+    margin-right: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    text-align: left;
 }

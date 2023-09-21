@@ -7,13 +7,20 @@ export default function Opretpip(props) {
     return(
         <body>
 
-            <h1>Home</h1>
-            
-            <avatar>
-                <img className='logo' src={avatar} alt="avatar" />
-                <p>Hvad har du på hjertet?</p>
-            </avatar>
+            <div className='homebox'><h1>Home</h1></div>
 
+            <div className="contentbox">
+
+                
+                <div className='avatar'>
+                    <img className='avatar' src={avatar} alt="avatar" />
+                </div>
+
+                <div className='text'>
+                    <p>Hvad har du på hjertet?</p>
+                </div>
+
+            </div>
 
         </body>
     )

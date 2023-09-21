@@ -10,7 +10,11 @@ function App() {
   return (
     <div className="App">
       <div className='bigFlex'>
-      <Sidebar/>
+        <nav>
+        <Sidebar/>
+
+        </nav>
+
       <main>
       <Opretpip/>
       </main>
