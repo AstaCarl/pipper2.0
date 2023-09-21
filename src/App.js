@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import "./components/sidebar.css";
 import Sidebar from "./components/Sidebar";
 
