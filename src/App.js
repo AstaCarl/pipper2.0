@@ -12,7 +12,9 @@ function App() {
       <div className='bigFlex'>
         <Sidebar/>
       <main>
-      <Opretpip/>
+        <div className='contentbox'>
+          <Opretpip/>
+        </div>
       </main>
       </div>
     </div>
