@@ -1,0 +1,12 @@
+h1{
+    padding-bottom: 30px;
+}
+
+avatar{
+    display: flex;
+    justify-content: center;
+}
+
+.horziontal-line{
+    width: 100%;
+}
