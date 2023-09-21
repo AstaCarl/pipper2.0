@@ -1,10 +1,14 @@
-
-body{
+.post{
     padding: 20px;
+    background-color: white;
 }
+
 .pip{
     display: flex;
+}
 
+.homebox h1{
+    font-size: 24px;
 }
 
 .avatar{
@@ -12,10 +16,6 @@ body{
     margin-right: 16px;
     width: 60px;
     justify-content: right;
-}
-
-.text{
-    text-align: left;
 }
 
 .button{

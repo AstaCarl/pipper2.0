@@ -4,7 +4,8 @@
 
 .contentbox{
     width: 96%;
-    padding: 20px;
+    margin-top: 20px;
+
 }
 
 main{
@@ -13,5 +14,4 @@ main{
     align-items: center;
     width: 100%;
     background-color: #f5f5f5;
-
 }

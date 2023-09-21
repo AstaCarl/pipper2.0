@@ -7,7 +7,7 @@ import './knap.css'
 
 export default function Opretpip(props) {
     return(
-        <body>
+        <div className='post'>
 
             <div className='homebox'><h1>Home</h1></div>
 
@@ -19,6 +19,6 @@ export default function Opretpip(props) {
 
             <div className='button'><Knap/></div>
 
-        </body>
+        </div>
     )
 }
