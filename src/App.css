@@ -5,7 +5,6 @@
 .contentbox{
     width: 96%;
     margin-top: 20px;
-
 }
 
 main{
@@ -14,4 +13,13 @@ main{
     align-items: center;
     width: 100%;
     background-color: #f5f5f5;
+}
+
+.contentpips{
+    width: 96%;
+    margin-top: 20px;
+}
+
+.brugerAvatar{
+    width: 60px;
 }

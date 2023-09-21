@@ -1,0 +1,20 @@
+.pippost{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bruger{
+    display: flex;
+    align-items: center;
+}
+
+.bruger h1{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.opslag{
+    padding-left: 62px;
+    padding-right: 62px;
+}
