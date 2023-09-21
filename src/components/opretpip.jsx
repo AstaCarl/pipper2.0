@@ -14,7 +14,7 @@ export default function Opretpip(props) {
             <div className="pip">
 
                     <img className='avatar' src={avatar} alt="avatar" />
-                    <textarea>Hvad har du på hjertet?</textarea>
+                    <textarea placeholder='Hvad har du på hjertet? '></textarea>
             </div>
 
             <div className='button'><Knap/></div>
