@@ -6,6 +6,7 @@
     position: relative;
     left: 0;
     text-align: center;
+    padding-top: 20px;
 }
 
 .logo{
@@ -21,7 +22,6 @@ figure{
 figure h1{
     font-size: 30px;
     color: #1DA1F2;
-    padding-top: 35px;
 }
 
 .nav-link{
@@ -37,6 +37,7 @@ svg{
     margin-right: 5px;
 }
 
-.avatar{
-    width: 38px;
+.profil-avatar{
+    width: 40px;
 }
+
