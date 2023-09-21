@@ -5,4 +5,21 @@
     border-right: 1px solid rgb(189, 189, 189);
     position: relative;
     left: 0;
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure h1{
+    font-size: 30px;
+    color: #1DA1F2;
+    margin-top: 7px;
 }
