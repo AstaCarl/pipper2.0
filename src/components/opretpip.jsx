@@ -19,6 +19,10 @@ export default function Opretpip(props) {
 
             <div className='button'><Knap/></div>
 
+           <p>hej</p> 
+
+            
+
         </div>
     )
 }
