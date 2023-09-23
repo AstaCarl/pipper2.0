@@ -27,7 +27,7 @@ function App() {
         <div className='contentbox'>
           <Opretpip/>
         </div>
-        <div className='contentpips'>
+        <div className='contentpips' id="pips">
         {pips.map((pipObj) => <Pips pips={pipObj}/>)}
         </div>
       </main>

@@ -1,5 +1,8 @@
-import myAvatar from "./adventurer-1695289491040.png"
+import React from 'react'
+import Knap from './Knap'
+
 export default function Pips(props){
+
     return (
         <div className="pippost">
             <div className="bruger">
