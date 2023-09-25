@@ -12,8 +12,10 @@ export default function Opretpip(props) {
             <div className='homebox'><h1>Home</h1></div>
 
             <div className="pip">
-
-                    <img className='avatar' src={avatar} alt="avatar" />
+                <div className='brugernavn'>
+                    {/* <img className='avatar' src={avatar} alt="avatar" /> */}
+                    <input type="text" placeholder='Brugernavn' />
+                    </div>
                     <textarea placeholder='Hvad har du på hjertet? '></textarea>
             </div>
 
