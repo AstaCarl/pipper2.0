@@ -1,6 +1,7 @@
 .post{
     padding: 20px;
     background-color: white;
+    margin-bottom: 45px;
 }
 
 .pip{
@@ -20,14 +21,11 @@
     max-height: 60px;
 }
 
-.button{
+.btnFlex{
     display: flex;
     justify-content: right;
 }
 
-.post{
-    padding: 30px;
-}
 
 .pip textarea{
     border: 1px solid #bdbcbc;
@@ -50,4 +48,8 @@
 input{
     border-radius: 0;
     border: 1px solid #bdbcbc;
+}
+
+.newPip{
+    margin-bottom: 30px;
 }

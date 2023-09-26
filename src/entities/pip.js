@@ -1,8 +1,9 @@
+// Definerer en klasse for at kunne oprette objekter med
+// samme struktur på tværs af objekter.
 export class Pip {
-    constructor(content, username, url) {
-        this.content = content;
+    constructor(username, content) {
         this.username = username;
-        this.url = url;
+        this.content = content;
     }
 
 }

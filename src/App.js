@@ -11,14 +11,15 @@ import "./components/pips.css"
 import "./components/opretpip.css";
 import Opretpip from "./components/Opretpip";
 
+//Import af Pip constructor
 import {Pip} from "./entities/pip"
 
+
+//pips array med pip obj
 const pips = [
-  new Pip('Asta', 'Lorem ipsum', 'https://api.dicebear.com/7.x/adventurer/svg?seed=Buster'),
+  new Pip('Asta', 'Tis'),
 
 ];
-
-
 
 function App() {
   return (
@@ -30,7 +31,10 @@ function App() {
           <Opretpip/>
         </div>
         <div className='contentpips'>
-        {pips.map((pipObj) => <Pips pips={pipObj}/>)}
+          {/* Map over pips array, og renderer et nyt pip component med data fra array */}
+          {pips.map((pipObj) => (
+            <Pips key={pipObj.content} content={pipObj.content} username={pipObj.username}  />
+          ))}
         </div>
       </main>
       </div>
