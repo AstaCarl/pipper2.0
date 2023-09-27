@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pipper2.0/static/css/main.501f9486.css",
+    "main.js": "/pipper2.0/static/js/main.61204568.js",
+    "static/media/twitter.logo.png": "/pipper2.0/static/media/twitter.logo.57573394db94634d7e1f.png",
+    "static/media/adventurer-1695289491040.png": "/pipper2.0/static/media/adventurer-1695289491040.8dc387a858f422d3a7d9.png",
+    "index.html": "/pipper2.0/index.html",
+    "main.501f9486.css.map": "/pipper2.0/static/css/main.501f9486.css.map",
+    "main.61204568.js.map": "/pipper2.0/static/js/main.61204568.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.501f9486.css",
+    "static/js/main.61204568.js"
+  ]
+}
