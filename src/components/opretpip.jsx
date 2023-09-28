@@ -56,7 +56,9 @@ export default function Opretpip() {
             </div>
                 {pips.map((pip) => (
                      <div className="newPip" key={content}>
-                        <Pips username={pip.username} content={pip.content} />
+                        <Pips 
+                        username={pip.username} 
+                        content={pip.content} />
                     </div>
                 ))};
         </div>
