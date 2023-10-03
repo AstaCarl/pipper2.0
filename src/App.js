@@ -33,7 +33,10 @@ function App() {
         <div className='contentpips'>
           {/* Map over pips array, og renderer et nyt pip component med data fra array */}
           {pips.map((pipObj) => (
-            <Pips key={pipObj.content} content={pipObj.content} username={pipObj.username}  />
+            <Pips 
+            key={pipObj.content} 
+            content={pipObj.content} 
+            username={pipObj.username}  />
           ))}
         </div>
       </main>
