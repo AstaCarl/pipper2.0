@@ -13,13 +13,7 @@ export default function Opretpip() {
     const [username, setUsername] = useState('');
     const [content, setContent] = useState('');
     const [pips, setPips] = useState([]);
-
-    // //Jeg er i gang med at prøve at implementerer, at man ikke kan opret pip uden at have udfyldt det hele og dermed kommer der en besked op. 
-    // const [usernameTodo, setusernameTouchedTodo] = useState(false);
-    // const [contentTodo, setcontentTouchedTodo] = useState(false);
-    // const [pipsTodo, setpipsTouchedTodo] = useState(false);
-
-
+    
     const handleUsernameChange = (e) => {
         console.log(e.target.value);
         //Fanger det bruger navn som brugeren skriver ind i input
