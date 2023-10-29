@@ -17,7 +17,7 @@ import {Pip} from "./entities/pip"
 
 //pips array med pip obj
 const pips = [
-  new Pip('Asta', 'Tis'),
+  new Pip('Asta', 'Goddag'),
 
 ];
 

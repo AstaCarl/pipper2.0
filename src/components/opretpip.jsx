@@ -61,7 +61,7 @@ export default function Opretpip() {
                         username={pip.username} 
                         content={pip.content} />
                     </div>
-                ))};
+                ))}
         </div>
     )
 }
